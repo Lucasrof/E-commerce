@@ -24,7 +24,8 @@ Refine o modelo apresentado anteriormente acrescentando os seguintes pontos:
 
 ## Solução do Modelo EER
 
-![E-Commerce](https://github.com/user-attachments/assets/c29ad9cf-d9ec-4664-be73-475f9b98d4bc)
+![E-Commerce](https://github.com/user-attachments/assets/855199de-8e6c-44db-a2be-d52cf74e047f)
+
 
 ### Refinamentos Propostos
 
