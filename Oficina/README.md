@@ -1,4 +1,4 @@
-# Construindo um Esquema Conceitual para Banco De dados - Oficina
+# Construindo um Esquema Conceitual para Banco de Dados - Oficina Mecânica.
 
 **Bootcamp:** Suzano - Análise de Dados com Power BI  
 **Instrutora:** Juliana Mascarenhas
