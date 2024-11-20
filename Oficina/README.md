@@ -48,7 +48,7 @@ Construa o modelo solicitado de acordo com as regras de negócio e implementando
 
 **Tabela PessoaJurídica:**
 - `IdPessoaJurídica` INT
-- - `CNPJ` VARCHAR(45)
+- `CNPJ` VARCHAR(45)
 - `RazãoSocial` VARCHAR(45)
 - `Telefone` VARCHAR(45)
 - `Endereço` VARCHAR(45)
