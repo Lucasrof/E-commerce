@@ -126,4 +126,5 @@ Construa o modelo solicitado de acordo com as regras de negócio e implementando
 - `FK idClientes` INT
 ---
 
-Sinta-se à vontade para fazer melhorias e ajustes no modelo, utilizando as boas práticas de modelagem e atendendo aos requisitos do cenário de e-commerce.
+Sinta-se à vontade para fazer melhorias e ajustes no modelo, utilizando as boas práticas de modelagem e atendendo aos requisitos do cenário para Oficina Mecânica.
+Obs: Estou aberto a dicas de melhorias e correções!
