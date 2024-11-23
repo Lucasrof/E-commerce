@@ -22,7 +22,7 @@ A pasta contém:
 - **`E-commerce.png`**: Imagem do modelo conceitual.
 - **`README.md`**: Detalhes específicos do modelo E-commerce.
 
-### 2. [Modelo Conceitual - Oficina](./Oficina)
+### 2. [Modelo Conceitual - Oficina]
 Este projeto apresenta um modelo conceitual de banco de dados para uma **Oficina mecânica**, incluindo:
 
 - Registro de clientes e veículos.
@@ -62,7 +62,7 @@ Instrutora: **Juliana Mascarenhas**
 
 1. Faça o clone ou download do repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/Lucasrof/Projetos-Banco-de-Dados.git)
+   git clone https://github.com/Lucasrof/Projetos-Banco-de-Dados.git
    ```
 
 2. Abra os arquivos **MWB** com o [MySQL Workbench](https://www.mysql.com/products/workbench/).
@@ -77,34 +77,5 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir **issues** ou en
 
 ---
 
-## 📜 Licença
 
-Este projeto é disponibilizado sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais informações.
 
----
-
-Desenvolvido com 💻 por [Lucas Rosa](https://github.com/Lucasrof) no Bootcamp Suzano.
-```
-
-### Instruções
-- Substitua `https://github.com/seu-usuario/seu-repositorio.git` pelo link do repositório real.
-- Personalize o campo do autor (`Seu Nome`) com seu nome ou perfil.
-- Adicione uma licença ao projeto, como a MIT, se aplicável.
-
-Se precisar de ajustes, é só avisar! 😊) no Bootcamp Suzano.
-```
-
-### Instruções
-- Substitua `https://github.com/seu-usuario/seu-repositorio.git` pelo link do repositório real.
-- Personalize o campo do autor (`Seu Nome`) com seu nome ou perfil.
-- Adicione uma licença ao projeto, como a MIT, se aplicável.
-
-Se precisar de ajustes, é só avisar! 😊) no Bootcamp Suzano.
-```
-
-### Instruções
-- Substitua `https://github.com/seu-usuario/seu-repositorio.git` pelo link do repositório real.
-- Personalize o campo do autor (`Seu Nome`) com seu nome ou perfil.
-- Adicione uma licença ao projeto, como a MIT, se aplicável.
-
-Se precisar de ajustes, é só avisar! 😊
