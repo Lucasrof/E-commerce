@@ -1,6 +1,5 @@
 Desenvolvido com 💻 por Lucas Rosa:  
 
-```markdown
 # Projetos de Modelos Conceituais de Banco de Dados - Bootcamp Suzano 🚀
 
 Este repositório contém dois projetos de modelos conceituais de banco de dados desenvolvidos durante o **Bootcamp Suzano - Análise de Dados com Power BI**, em parceria com a plataforma [DIO](https://www.dio.me) e ministrado pela instrutora **Juliana Mascarenhas**.
@@ -11,7 +10,7 @@ Os modelos são apresentados nos formatos **PNG** e **MWB** (MySQL Workbench) e 
 
 ## 📂 Estrutura do Repositório
 
-### 1. [Modelo Conceitual - E-commerce](./Ecommerce)
+### 1. [Modelo Conceitual - E-commerce]
 Este projeto representa um modelo conceitual de banco de dados voltado para um sistema de **E-commerce**, abrangendo funcionalidades como:
 
 - Gestão de produtos, categorias e estoques.
@@ -36,6 +35,20 @@ A pasta contém:
 - **`README.md`**: Detalhes específicos do modelo Oficina.
 
 ---
+
+## 📌 Sobre o Bootcamp
+
+O **Bootcamp Suzano - Análise de Dados com Power BI** é uma iniciativa que visa capacitar profissionais em análise, visualização de dados e banco de dados, com foco em práticas do mundo real. Este repositório apresenta parte da etapa de modelagem e construção de banco de dados, essencial para projetos de análise de dados robustos.
+
+Instrutora: **Juliana Mascarenhas**
+
+---
+
+## 💡 Como Utilizar os Arquivos
+
+1. Faça o clone ou download do repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/Lucasrof/Projetos-Banco-de-Dados.git)
 
 ## 📌 Sobre o Bootcamp
 
