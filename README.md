@@ -1,4 +1,3 @@
-Desenvolvido com 💻 por Lucas Rosa:  
 
 # Projetos de Modelos Conceituais de Banco de Dados - Bootcamp Suzano 🚀
 
