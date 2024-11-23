@@ -1,85 +1,97 @@
-# Refinando um Projeto Conceitual de Banco de Dados – E-COMMERCE
+Desenvolvido com 💻 por [Lucas Rosa](Aqui está o modelo de um arquivo `README.md` para o repositório no GitHub:  
 
-**Bootcamp:** Suzano - Análise de Dados com Power BI  
-**Instrutora:** Juliana Mascarenhas
+```markdown
+# Projetos de Modelos Conceituais de Banco de Dados - Bootcamp Suzano 🚀
 
-## Descrição do Desafio
+Este repositório contém dois projetos de modelos conceituais de banco de dados desenvolvidos durante o **Bootcamp Suzano - Análise de Dados com Power BI**, em parceria com a plataforma [DIO](https://www.dio.me) e ministrado pela instrutora **Juliana Mascarenhas**.
 
-Modelamos juntos um contexto reduzido de e-commerce. Agora é a sua vez de refinar o modelo. Você pode escolher a ferramenta de modelagem para realizar o desafio. No entanto, se optar por uma variação do modelo entidade-relacionamento (como MySQL Workbench ou DBDesigner), será necessário especificar corretamente as chaves primárias (PK) e chaves estrangeiras (FK). Apesar desse conceito não ser utilizado na modelagem conceitual, exploramos brevemente suas definições. 
-
-### Entregável:
-O entregável será o esquema conceitual refinado para o cenário de E-commerce.
-
-## Objetivos e Regras
-
-Refine o modelo apresentado anteriormente acrescentando os seguintes pontos:
-
-1. **Cliente PJ e PF**: Uma conta pode ser PJ (Pessoa Jurídica) ou PF (Pessoa Física), mas não pode conter ambas as informações.
-2. **Pagamento**: O cliente pode cadastrar mais de uma forma de pagamento para o pedido.
-3. **Entrega**: O pedido deve possuir status e código de rastreio para acompanhamento.
-
-## Ferramentas Utilizadas
-
-- MySQL Workbench
-
-## Solução do Modelo EER
-
-![E-Commerce](https://github.com/user-attachments/assets/855199de-8e6c-44db-a2be-d52cf74e047f)
-
-
-### Refinamentos Propostos
-
-### Desafio 1: Cliente PJ e PF
-- Criadas duas novas entidades: **PessoaFísica** e **PessoaJurídica**.
-
-**Tabela PessoaFísica:**
-- `IdPessoaFísica` INT
-- `Nome` VARCHAR(45)
-- `DataNascimento` DATE
-- `CPF` VARCHAR(45)
-
-**Tabela PessoaJurídica:**
-- `IdPessoaJurídica` INT
-- `RazãoSocial` VARCHAR(45)
-- `DataCadastroPJ` DATETIME
-- `CNPJ` VARCHAR(45)
-
-### Desafio 2: Pagamento
-- Criada a tabela **Pagamento**, relacionada com a tabela de **Pedido** (1,1), permitindo o cadastro de múltiplas formas de pagamento.
-
-**Tabela Pagamento:**
-- `IdPagamento` INT
-- `FormaPagamento` VARCHAR(45)
-- `FK Pedido_IdPedido` INT
-- `FK Pedido_Cliente_IdCliente` INT
-
-**Tabela Cartão:**
-- `IdCartão` INT
-- `TipoCartão` TINYINT
-- `NumeroCartão` VARCHAR(45)
-- `Valor` FLOAT
-- `FK Pagamento_IdPagamento` INT
-
-**Tabela Boleto:**
-- `IdBoleto` INT
-- `Parcelas` INT
-- `DataVencimento` DATE
-- `Valor` FLOAT
-- `FK Pagamento_IdPagamento` INT
-
-### Desafio 3: Entrega
-- Criada a tabela **Entrega**, relacionada com a tabela de **Pedido** (1,1), contendo informações sobre status e código de rastreio.
-
-**Tabela Entrega:**
-- `IdEntrega` INT
-- `DataPedido` DATE
-- `DataEnvio` DATE
-- `DataEntregue` DATE
-- `EnderecoEntrega` VARCHAR(45)
-- `Recebido` TINYINT
-- `FK Pedido_IdPedido` INT
-- `FK Pedido_Cliente_IdCliente` INT
+Os modelos são apresentados nos formatos **PNG** e **MWB** (MySQL Workbench) e estão organizados em pastas separadas de acordo com os temas abordados: **E-commerce** e **Oficina**.
 
 ---
 
-Sinta-se à vontade para fazer melhorias e ajustes no modelo, utilizando as boas práticas de modelagem e atendendo aos requisitos do cenário de e-commerce.
+## 📂 Estrutura do Repositório
+
+### 1. [Modelo Conceitual - E-commerce](./Ecommerce)
+Este projeto representa um modelo conceitual de banco de dados voltado para um sistema de **E-commerce**, abrangendo funcionalidades como:
+
+- Gestão de produtos, categorias e estoques.
+- Registro de clientes e pedidos.
+- Controle de pagamentos e envios.
+
+A pasta contém:
+- **`Ecommerce Mwb.mwb`**: Arquivo do MySQL Workbench.
+- **`E-commerce.png`**: Imagem do modelo conceitual.
+- **`README.md`**: Detalhes específicos do modelo E-commerce.
+
+### 2. [Modelo Conceitual - Oficina](./Oficina)
+Este projeto apresenta um modelo conceitual de banco de dados para uma **Oficina mecânica**, incluindo:
+
+- Registro de clientes e veículos.
+- Gerenciamento de ordens de serviço e peças.
+- Controle de funcionários e serviços prestados.
+
+A pasta contém:
+- **`Oficina MWB.mwb`**: Arquivo do MySQL Workbench.
+- **`Oficina EER.png`**: Imagem do modelo conceitual.
+- **`README.md`**: Detalhes específicos do modelo Oficina.
+
+---
+
+## 📌 Sobre o Bootcamp
+
+O **Bootcamp Suzano - Análise de Dados com Power BI** é uma iniciativa que visa capacitar profissionais em análise, visualização de dados e banco de dados, com foco em práticas do mundo real. Este repositório apresenta parte da etapa de modelagem e construção de banco de dados, essencial para projetos de análise de dados robustos.
+
+Instrutora: **Juliana Mascarenhas**
+
+---
+
+## 💡 Como Utilizar os Arquivos
+
+1. Faça o clone ou download do repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/Lucasrof/Projetos-Banco-de-Dados.git)
+   ```
+
+2. Abra os arquivos **MWB** com o [MySQL Workbench](https://www.mysql.com/products/workbench/).
+
+3. Consulte os modelos conceituais em **PNG** para uma visão geral dos bancos de dados.
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir **issues** ou enviar **pull requests**.
+
+---
+
+## 📜 Licença
+
+Este projeto é disponibilizado sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais informações.
+
+---
+
+Desenvolvido com 💻 por [Lucas Rosa](https://github.com/Lucasrof) no Bootcamp Suzano.
+```
+
+### Instruções
+- Substitua `https://github.com/seu-usuario/seu-repositorio.git` pelo link do repositório real.
+- Personalize o campo do autor (`Seu Nome`) com seu nome ou perfil.
+- Adicione uma licença ao projeto, como a MIT, se aplicável.
+
+Se precisar de ajustes, é só avisar! 😊) no Bootcamp Suzano.
+```
+
+### Instruções
+- Substitua `https://github.com/seu-usuario/seu-repositorio.git` pelo link do repositório real.
+- Personalize o campo do autor (`Seu Nome`) com seu nome ou perfil.
+- Adicione uma licença ao projeto, como a MIT, se aplicável.
+
+Se precisar de ajustes, é só avisar! 😊) no Bootcamp Suzano.
+```
+
+### Instruções
+- Substitua `https://github.com/seu-usuario/seu-repositorio.git` pelo link do repositório real.
+- Personalize o campo do autor (`Seu Nome`) com seu nome ou perfil.
+- Adicione uma licença ao projeto, como a MIT, se aplicável.
+
+Se precisar de ajustes, é só avisar! 😊
