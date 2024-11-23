@@ -1,4 +1,4 @@
-Desenvolvido com 💻 por [Lucas Rosa](Aqui está o modelo de um arquivo `README.md` para o repositório no GitHub:  
+Desenvolvido com 💻 por Lucas Rosa:  
 
 ```markdown
 # Projetos de Modelos Conceituais de Banco de Dados - Bootcamp Suzano 🚀
