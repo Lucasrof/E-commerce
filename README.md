@@ -76,5 +76,5 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir **issues** ou en
 
 ---
 
-
+Desenvolvido por Lucas Rosa. 😄
 
